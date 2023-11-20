@@ -2,6 +2,7 @@
 
 import { Graph } from "./graph.js";
 
+//same as graph function, but tracks edgelength
 function knightBreadthFirstSearch(startNode, endNode) {
   let visited = {};
   let queue = [];
